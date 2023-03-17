@@ -1,3 +1,14 @@
 .bg-blue-grey {
   background-color: rgb(181, 181, 203);
 }
+
+.br-bg-img {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wallpaperup.com%2Fuploads%2Fwallpapers%2F2015%2F04%2F20%2F667420%2F1a55d58635386e84061c5b972852b2bb.jpg&f=1&nofb=1&ipt=d8f4418828d2d1dbe0ae3c264a49df9f5bac9078b6b66294e5f0dcb7550dca6d&ipo=images");
+  background-size: cover;
+}
+
+.ar-bg-img {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpre00.deviantart.net%2Fe7e0%2Fth%2Fpre%2Fi%2F2012%2F230%2F5%2F3%2Fdistant_fortress_ruins_by_balaskas-d5bj3jj.jpg&f=1&nofb=1&ipt=714cb2649ddfcd11fd31d454c9298d42c23a6adc7ffddc93ac03b849d10a9469&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
