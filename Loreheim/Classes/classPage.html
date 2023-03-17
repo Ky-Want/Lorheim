@@ -16,6 +16,8 @@
 
 
 
+
+
 <body class="bg-img">
   <!-- Nav bar -->
   <div class="d-flex justify-content-around bg-blue-grey p-3">
@@ -42,89 +44,157 @@
 
   <!-- Class collapsible's -->
   <section class="container">
-    <!-- Arcane classes -->
+    <!-- #region: Arcane classes -->
     <button type="button" class="collapsible mt-5 fs-4"><strong>Arcane classes</strong></button>
     <div class="content">
-      <div class="d-flex justify-content-around m-3">
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#healer">
-          <div class="fs-5">Healer</div>
-        </button>
+      <div class="d-flex justify-content-around p-3">
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Healer
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#healer1">Level 1</a></li>
+          </ul>
+        </div>
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mage">
-          <div class="fs-5">Mage</div>
-        </button>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mage
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#mage1">Level 1</a></li>
+          </ul>
+        </div>
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#bard">
-          <div class="fs-5">Bard</div>
-        </button>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Bard
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#bard1">Level 1</a></li>
+          </ul>
+        </div>
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#divineKnight">
-          <div class="fs-5">Divine knight</div>
-        </button>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Divine Knight
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#divineKnight1">Level 1</a></li>
+          </ul>
+        </div>
       </div>
     </div>
+    <!-- #endregion -->
 
-    <!-- Naturae classes -->
+    <!-- #region: Naturae classes -->
     <button type="button" class="collapsible mt-5 fs-4"><strong>Naturae classes</strong></button>
     <div class="content">
-      <div class="d-flex justify-content-around m-3">
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#catalyst">
-          <div class="fs-5">Catalyst</div>
-        </button>
+      <div class="d-flex justify-content-around p-3">
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Catalyst
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#catalyst1">Level 1</a></li>
+          </ul>
+        </div>
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#necromancer">
-          <div class="fs-5">Necromancer</div>
-        </button>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Necromancer
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#necromancer1">Level 1</a></li>
+          </ul>
+        </div>
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#druid">
-          <div class="fs-5">Druid</div>
-        </button>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Druid
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#druid1">Level 1</a></li>
+          </ul>
+        </div>
       </div>
     </div>
+    <!-- #endregion -->
 
-    <!-- Martial classes -->
+    <!-- #region: Martial classes -->
     <button type="button" class="collapsible mt-5 fs-4"><strong>Martial classes</strong></button>
     <div class="content">
-      <div class="d-flex justify-content-around m-3">
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#alchemist">
-          <div class="fs-5">Alchemist</div>
-        </button>
+      <div class="d-flex justify-content-around p-3">
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Alchemist
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#alchemist1">Level 1</a></li>
+          </ul>
+        </div>
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="medic">
-          <div class="fs-5">Medic</div>
-        </button>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Medic
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#medic1">Level 1</a></li>
+          </ul>
+        </div>
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="juggernaut">
-          <div class="fs-5">Juggernaut</div>
-        </button>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Juggernaut
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#juggernaut1">Level 1</a></li>
+          </ul>
+        </div>
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="rogue">
-          <div class="fs-5">Rogue</div>
-        </button>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Rogue
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#rogue1">Level 1</a></li>
+          </ul>
+        </div>
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="runeKeeper">
-          <div class="fs-5">Rune Keeper</div>
-        </button>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Rune Keeper
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#runeKeeper1">Level 1</a></li>
+          </ul>
+        </div>
 
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="warrior">
-          <div class="fs-5">Warrior</div>
-        </button>
-
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="warrior">
-          <div class="fs-5">Witch Hunter</div>
-        </button>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Witch Hunter
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#witchHunter1">Level 1</a></li>
+          </ul>
+        </div>
       </div>
     </div>
+    <!-- #endregion -->
   </section>
 
 
 
+
   <!-- Modals -->
-  <div class="modal fade" id="healer" tabindex="-1" aria-labelledby="healerLabel" aria-hidden="true">
+
+  <!-- ARCANE CLASSES -->
+  <!-- #region: healer -->
+  <div class="modal fade" id="healer1" tabindex="-1" aria-labelledby="healer1Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-4" id="healerLabel">
+          <h1 class="modal-title fs-4" id="healer1Label">
             Healer
           </h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -140,7 +210,7 @@
           <strong>Class Features</strong><br>
           <i>As a Healer you gain the following features:</i><br><br>
 
-          <strong>Hit Points</strong><br>
+          <strong>Hit Points</strong>
           Hit Dice: 1d6/level <br>
           Hit Points: 6 + Constitution modifier <br>
           Hit Points at Higher Levels: 1d6 + Con <br><br>
@@ -150,17 +220,371 @@
           Saving throws: Wisdom, Intelligence <br>
           Skills: Choose three from Arcana, Medicine, Nature, Perception, Investigation, Acrobatics, Persuasion
 
-          <br><br><br>
+          <br><br><br><br><br>
 
-          ...
+          <p>level 1 mana points: At level 1 you have 8 points you can use to boost your spells.</p>
+          <strong>Class Ability</strong><br>
+          <p>*Preferred patient: Some types of creatures are easier to heal for you than others. You gain advantage on
+            medicine checks with preferred patients. Choose one from Fae, Lizardfolk, Human, Demon, Undead, Artificial
+            (eg. Dwarves), and Divine beings (eg. Fallen Astre)</p>
+          <strong>level 1 actives: Pick 3</strong>
+          <p>*Defy death, lvl 1, reaction: 4 mana points, as a reaction you can bring an ally up to 30ft away back to 1
+            hitpoint after being struck down. This can't be used if they actually die though, only if they are in the
+            negatives and dying. Every additional point used gives an extra 1d6 of healing.</p>
+          <p>*Restore, lvl 1, action: At will you can heal one ally up to 10ft away for 1d4 + Wisdom. One mana point
+            gives an additional d4, 2 points gives and extra 5ft of range.</p>
+          <p>*Defensive healing, lvl 1, action: 1 mana point, you can store one healing active in an allies body that
+            goes off if they are hit by an enemy attack. Every additional 2 points used grants an extra use of healing
+            that can be stored.</p>
+          <p>*Mass restoration, lvl 1, action: 1 mana points, you can send a wave of 1d6 + Wisdom healing out to 10ft.
+            Any allies within range benefit from this ability. 1 extra mana point gives an extra 5ft, and 2 gives an
+            extra 1d6.</p>
+          <p>*An eye for an eye, lvl 1, reaction: 4 mana points, you can reflect half of the damage that's been done to
+            yourself or an ally from one attack to the attacker. For an extra 4 mana points you can completely reflect
+            the damage dealt to the attacker.</p><br>
+          <strong>level 1 passives: Pick 2</strong><br>
+          <p>*Divine aura, lvl 1: All single target healing actives give an extra 3 points of health.</p>
+          <p>*Well of energy, lvl 1: Gain 1 extra mana point for healing abilities.</p>
+          <p>*The Gift of Excess, lvl 1: If your healing would boost an ally above full health, half of the extra points
+            rounded down turn into temporary healing. This only applies if the ally was wounded, you can't give an ally
+            with full hp temporary hit points.</p>
+          <p>*Numb, lvl 1: The dead and dying are rarely a pretty sight, but you've grown accustomed to such scenes.
+            Gain +2 to medicine checks when stabilizing or identifying the ailments of others.</p>
+          <p>*Rushed aid, lvl 1: Gain proficiency in acrobatics to reach fallen allies.</p>
+          <br>
         </div>
         <div class="modal-footer">
         </div>
       </div>
     </div>
   </div>
+  <!-- #endregion -->
+
+  <!-- #region: mage -->
+  <div class="modal fade" id="mage1" tabindex="-1" aria-labelledby="mage1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="mage1Label">
+            Mage
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+  <!-- #region: bard -->
+  <div class="modal fade" id="bard1" tabindex="-1" aria-labelledby="bard1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="bard1Label">
+            Bard
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+  <!-- #region: divine knight -->
+  <div class="modal fade" id="divineKnight1" tabindex="-1" aria-labelledby="divineKnight1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="divineKnight1Label">
+            Divine Knight
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+
+
+  <!-- NATURAE CLASSES -->
+  <!-- #region: catalyst -->
+  <div class="modal fade" id="catalyst1" tabindex="-1" aria-labelledby="catalyst1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="catalyst1Label">
+            Catalyst
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <i>Catalysts are a rare and ancient faction. These individuals are capable of bolstering others spells and
+            abilities
+            regardless of the type. They are incredibly compatible with every known form of magic despite not being able
+            to wield
+            the various magics on existence. Now, normally that would be seen as a relatively harmless skill, but
+            increasing the
+            effectiveness of others spells is not their only ability. A few among this faction are capable of bonding
+            with monsters,
+            similar to how one would bond with their familiar, but on a larger scale.</i><br><br>
+
+          <strong>Class Features</strong><br>
+          As a Catalyst you gain the following features: <br><br>
+
+          <strong>Hit Points</strong><br>
+          Hit Dice: 1d6/level <br>
+          Hit Points: 6 + Constitution modifier <br>
+          Hit Points at Higher Levels: 1d6 + Con <br><br>
+
+          <strong>Proficiencies</strong><br>
+          Armor: Light armor <br>
+          Weapons: Simple weapons, and the whip <br>
+          Saving throws: Wisdom, Dexterity <br>
+          Skills: Choose three from Animal handling, Survival, Nature, Perception, Investigation, Acrobatics, Persuasion
+          <br><br><br><br>
+
+          <p>level 1 mana points: At level 1 you have 8 points you can use to boost your spells.</p>
+
+          <strong>Class Ability</strong>
+          <p>*Soul bond: You can form a familiar-type bond with up to your wisdom modifier of monsters.</p><br>
+
+          <strong>level 1 actives: Pick 3</strong><br>
+          <p>*Adjust course, lvl 1, reaction: 2 mana points, if you're within 5ft of an ally who would miss with one of
+            their spells
+            or spell like abilities, as a reaction you can make minor adjustments to their soul to help them hit their
+            target. Ally
+            gets to reroll their attack</p>
+          <p>*Range boost, lvl 1, action: 1 mana point, you can give an ally you come into physical contact with +5ft of
+            range to
+            their ranged spells and spell like abilities for one turn</p>
+          <p>*Strengthened strikes, lvl 1, action: 2 mana points, you can give an ally you come into physical contact
+            with
+            +2 damage
+            to their spells and spell like abilities for one turn</p>
+          <p>*Enhance bond, lvl 1, action: 4 mana points, you can push or pull extra mana through the bond now, granting
+            a
+            temporary
+            bonus to one of your or your chosen bonds senses</p>
+          <p>*Take control, lvl 1, action: 4 mana points, you can take full control of one of your bonded creatures for
+            1d4
+            turns.
+            This action leaves you vulnerable, but allows you to manipulate the bonded creature and utilize their
+            abilities as you
+            see fit.</p><br>
+
+          <strong>level 1 passives: Pick 2</strong><br>
+          <p>*Makeshift bond, lvl 1: When making a bond with a creature, rather than taking hours to complete it, you
+            can take the equivalent of two combat rounds to make a temporary bond that will wear of in 1d6 + Wisdom
+            modifier minutes.</p>
+          <p>*Layered mind, lvl 1: Due to your unique method of bonding with monsters you've gained the ability to
+            shield
+            your mind
+            with those you're bonded to. When you have at least one bond active you gain proficiency with saves vs
+            psychic
+            attacks.</p>
+          <p>*Higher command, lvl 1: You have a greater command of your bonded creatures than normal. They can follow
+            more
+            detailed
+            commands and are less likely to attempt to break free from the bond if displeased with you.</p>
+          <p>*Longer reach, lvl 1: Your bound creatures can now be up to 50ft rather than 30ft away from you before the
+            bond becomes
+            strained.</p>
+          <p>*Speedy alterations, lvl 1: You no longer have to maintain physical contact with your allies throughout
+            your
+            turn while
+            casting spells. Now, just a brief touch will suffice.</p>
+          <br>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+  <!-- #region: necromancer -->
+  <div class="modal fade" id="necromancer1" tabindex="-1" aria-labelledby="necromancer1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="necromancer1Label">
+            Necromancer
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+  <!-- #region: druid -->
+  <div class="modal fade" id="druid1" tabindex="-1" aria-labelledby="druid1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="druid1Label">
+            Druid
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+
+
+
+  <!-- MARTIAL CLASSES -->
+  <!-- #region: alchemist -->
+  <div class="modal fade" id="alchemist1" tabindex="-1" aria-labelledby="alchemist1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="alchemist1Label">
+            Alchemist
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+  <!-- #region: medic -->
+  <div class="modal fade" id="medic1" tabindex="-1" aria-labelledby="medic1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="medic1Label">
+            Medic
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+  <!-- #region: juggernaut -->
+  <div class="modal fade" id="juggernaut1" tabindex="-1" aria-labelledby="juggernaut1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="juggernaut1Label">
+            Juggernaut
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+  <!-- #region: rogue -->
+  <div class="modal fade" id="rogue1" tabindex="-1" aria-labelledby="rogue1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="rogue1Label">
+            Rogue
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+  <!-- #region: rune keeper -->
+  <div class="modal fade" id="runeKeeper1" tabindex="-1" aria-labelledby="runeKeeper1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="runeKeeper1Label">
+            Rune Keeper
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+  <!-- #region: witch hunter -->
+  <div class="modal fade" id="witchHunter1" tabindex="-1" aria-labelledby="witchHunter1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="witchHunter1Label">
+            Witch Hunter
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
 
 </body>
+
+
 
 
 
