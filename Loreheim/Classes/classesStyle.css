@@ -1,3 +1,9 @@
 .bg-blue-grey {
   background-color: rgb(181, 181, 203);
 }
+
+.bg-img {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flivewallpaperhd.com%2Fwp-content%2Fuploads%2F2019%2F11%2FDark-Fantasy-HD-Backgrounds.jpg&f=1&nofb=1&ipt=170b64e055423c4190155b6583158be157bac0b298b800e5b5cd9926ad49f59c&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

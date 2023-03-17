@@ -1,3 +1,9 @@
 .bg-blue-grey {
   background-color: rgb(181, 181, 203);
 }
+
+.bg-img {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fw.wallha.com%2Fws%2F12%2F1bUfRl08.jpg&f=1&nofb=1&ipt=22d143b139718197b82a86efec3ea22aa5e3cb700d1cbe1a464a47c6fe5f8e93&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
