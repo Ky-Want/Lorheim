@@ -12,3 +12,7 @@
 .main-page-body {
   background-color: rgb(160, 158, 158);
 }
+
+.opacity-6 {
+  opacity: 0.89;
+}
