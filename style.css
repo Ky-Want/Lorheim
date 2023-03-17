@@ -6,9 +6,9 @@
   background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2Fe%2F5%2F3%2F884434-dungeons-and-dragons-wallpapers-1920x1080-for-desktop.jpg&f=1&nofb=1&ipt=d2ba2e6b9dbf2ce5a2348da0a7b1609f5084152f2da0cca3952bbaee93fa8dad&ipo=images");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .main-page-body {
-  height: 87%;
   background-color: rgb(160, 158, 158);
 }
