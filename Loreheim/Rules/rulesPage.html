@@ -18,26 +18,42 @@
 
 <body class="bg-image">
   <section class="container mt-4">
+
     <!-- Button triggers for the modals -->
     <div class="d-flex justify-content-around">
-      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal"
+      <button type="button" class="btn btn-secondary btn-outline-dark button-size" data-bs-toggle="modal"
+        data-bs-target="#stats">
+        <div class="fs-5">Stats</div>
+      </button>
+
+      <button type="button" class="btn btn-secondary btn-outline-dark button-size" data-bs-toggle="modal"
+        data-bs-target="#combat">
+        <div class="fs-5">Combat</div>
+      </button>
+
+      <button type="button" class="btn btn-secondary btn-outline-dark button-size" data-bs-toggle="modal"
+        data-bs-target="#pointSystem">
+        <div class="fs-5">The Point System</div>
+      </button>
+    </div>
+
+    <div class="d-flex justify-content-around mt-5">
+      <button type="button" class="btn btn-secondary btn-outline-dark button-size" data-bs-toggle="modal"
         data-bs-target="#magicNSouls">
         <div class="fs-5">Magic and Souls</div>
       </button>
 
-      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal" data-bs-target="#stats">
-        <div class="fs-5">Stats</div>
-      </button>
-
-      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal" data-bs-target="#combat">
-        <div class="fs-5">Combat</div>
-      </button>
-
-      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal"
-        data-bs-target="#familiar">
+      <button type="button" class="btn btn-secondary btn-outline-dark button-size" data-bs-toggle="modal"
+        data-bs-target="#familiars">
         <div class="fs-5">Familiars</div>
       </button>
+
+      <button type="button" class="btn btn-secondary btn-outline-dark button-size" data-bs-toggle="modal"
+        data-bs-target="#catalyst">
+        <div class="fs-5">Catalysts</div>
+      </button>
     </div>
+
 
 
 
@@ -54,110 +70,107 @@
           </div>
           <div class="modal-body">
             <!-- #region: souls entry -->
-            <strong class="fs-4">Souls</strong>
-            <i class="fs-5">
-              <br>
-              Souls exist in every living thing, they are what separates the living from the
-              dead. As a creature develops and grows, so to does it's soul. Not all souls are the same though, much like
-              certain
-              evolutionary traits some souls grow and develop to the point of being flexible and capable of processing
-              things like
-              mana, like a mages soul, while some remain in a set state and only exist to prove that a creature is
-              alive.
-              Plants are a
-              good example of this. Every living plant has a soul, and while these souls aren't flexible enough to
-              manipulate magic,
-              they do still take in mana. Though, the way they take in mana is a little different for some. For some
-              plants, namely
-              alchemical ones, they have evolved to absorb some of the mana that enters their soul like they would
-              nutrients,
-              resulting in the various types of plants useable in potions.
-              <br><br>
-              Souls are kind of like a bunch of wires. They act as a magnet and conduit for
-              mana.
-              Normally, mana would simply enter the soul and leave without any change, but when a soul is developed and
-              flexible
-              enough it can process the mana into something more useful.
-              <br><br>
-              Now for the reason souls act like magnets for arcane mana. This one is rather simple, the reason for this
-              is
-              Naturae
-              mana, or the essence of souls. Naturae and arcane mana are fundamentally different, but also just similar
-              enough to not
-              clash with each other like moody siblings whenever they come into contact with one another. When arcane
-              mana
-              encounters
-              naturae mana, it's drawn in, but once it enters the thing giving off that essence, the naturae mana
-              naturally pushes it
-              out rather than mixing, much like oil and water.
-              <br><br>
-              Each soul is different, so there's always going to be a special case, but these are the base rules for
-              souls.
-            </i>
+            <strong>Souls</strong>
+            <br>
+            Souls exist in every living thing, they are what separates the living from the
+            dead. As a creature develops and grows, so to does it's soul. Not all souls are the same though, much like
+            certain
+            evolutionary traits some souls grow and develop to the point of being flexible and capable of processing
+            things like
+            mana, like a mages soul, while some remain in a set state and only exist to prove that a creature is
+            alive.
+            Plants are a
+            good example of this. Every living plant has a soul, and while these souls aren't flexible enough to
+            manipulate magic,
+            they do still take in mana. Though, the way they take in mana is a little different for some. For some
+            plants, namely
+            alchemical ones, they have evolved to absorb some of the mana that enters their soul like they would
+            nutrients,
+            resulting in the various types of plants useable in potions.
+            <br><br>
+            Souls are kind of like a bunch of wires. They act as a magnet and conduit for
+            mana.
+            Normally, mana would simply enter the soul and leave without any change, but when a soul is developed and
+            flexible
+            enough it can process the mana into something more useful.
+            <br><br>
+            Now for the reason souls act like magnets for arcane mana. This one is rather simple, the reason for this
+            is
+            Naturae
+            mana, or the essence of souls. Naturae and arcane mana are fundamentally different, but also just similar
+            enough to not
+            clash with each other like moody siblings whenever they come into contact with one another. When arcane
+            mana
+            encounters
+            naturae mana, it's drawn in, but once it enters the thing giving off that essence, the naturae mana
+            naturally pushes it
+            out rather than mixing, much like oil and water.
+            <br><br>
+            Each soul is different, so there's always going to be a special case, but these are the base rules for
+            souls.
             <!-- #endregion -->
 
             <!-- #region: Magic entry -->
             <br><br><br><br><br>
-            <strong class="fs-4">Magic</strong>
-            <i class="fs-5">
-              <br>
-              Magic is broken up into three primary categories. Arcane, Naturae, and Martial.
-              <br><br>
-              Arcane mana is an invisible substance that permeates the air and flows through every realm in existence.
-              Souls naturally
-              draw this substance in like a magnet, only for it to flow back out again in a never ending cycle. Not many
-              can harness
-              it, but all have at least some Arcane mana traveling through their soul at all times. Mages are capable of
-              manipulating
-              their souls to take hold of Arcane mana and shape it while it's leaving their body. The way they shape it
-              defines how
-              the mana is processed and what kind of spell they end up using, and the size and power of their soul
-              dictates how
-              powerful the spell can be. Attempting to cast a spell more powerful than your soul can handle can tear it
-              apart.
-              Similarly if you use too much magic in too short a time span you will wear down your soul and eventually
-              either become
-              unable to cast magic, or enter a comatose state. In the worst case scenario overworking your soul could
-              also lead to
-              death.
-              <br><br>
-              The next type of magic is known as Naturae, or life magic for the plebians out there. It's a unique type
-              of mana that,
-              rather than simply existing, is produced by all living things. It is also exceedingly dangerous. In using
-              Naturae one
-              could take control of a life, bring the wrath of nature itself down on some poor fucker, or even summon
-              the dead to head your commands in
-              some cases. Due to the dangerous and unpredictable nature of Naturae magic most have become quite wary of
-              those who can
-              wield it.
-              <br><br>
-              Finally we have Martial magic. By altering the shape of their soul they can change the course of the mana
-              flowing
-              through their bodies, giving them some additional advantages over the classes that can actually utilize
-              actual magic.
-              <br>
-              WARNING: attempting to change the fundamental shape of your soul is a VERY bad idea unless you know
-              EXACTLY what you're
-              doing.
-              When a mage uses magic they use their soul to process the mana inside of them and shape it on it's way out
-              to form their
-              target spell, they don't actually do anything that changes or moves the soul unnaturally. The reason it's
-              so dangerous
-              to change the shape of the soul is because when you do you could cause mana blockages in the body,
-              resulting in affects
-              similar to if you poured lead into a person's bloodstream. Mana becomes very volatile when forced to hold
-              still in one
-              spot. On top of essentially poisoning the person, as it condenses due to the blockage and gains a high
-              enough
-              concentration it can also begin processing on it's own, resulting in additional random effect(s) or just
-              mutating the
-              body of the individual, kind of like wild magic. That is, assuming they live long enough to get to that
-              stage and don't
-              seek help from a highly skilled healer to fix their soul. So anything from transforming into a monster to
-              exploding into
-              a massive fireball can happen.
-              Moral of the story? Don't fuck with souls. You won't like what happens.
-            </i>
+            <strong>Magic</strong>
+            <br>
+            Magic is broken up into three primary categories. Arcane, Naturae, and Martial.
+            <br><br>
+            Arcane mana is an invisible substance that permeates the air and flows through every realm in existence.
+            Souls naturally
+            draw this substance in like a magnet, only for it to flow back out again in a never ending cycle. Not many
+            can harness
+            it, but all have at least some Arcane mana traveling through their soul at all times. Mages are capable of
+            manipulating
+            their souls to take hold of Arcane mana and shape it while it's leaving their body. The way they shape it
+            defines how
+            the mana is processed and what kind of spell they end up using, and the size and power of their soul
+            dictates how
+            powerful the spell can be. Attempting to cast a spell more powerful than your soul can handle can tear it
+            apart.
+            Similarly if you use too much magic in too short a time span you will wear down your soul and eventually
+            either become
+            unable to cast magic, or enter a comatose state. In the worst case scenario overworking your soul could
+            also lead to
+            death.
+            <br><br>
+            The next type of magic is known as Naturae, or life magic for the plebians out there. It's a unique type
+            of mana that,
+            rather than simply existing, is produced by all living things. It is also exceedingly dangerous. In using
+            Naturae one
+            could take control of a life, bring the wrath of nature itself down on some poor fucker, or even summon
+            the dead to head your commands in
+            some cases. Due to the dangerous and unpredictable nature of Naturae magic most have become quite wary of
+            those who can
+            wield it.
+            <br><br>
+            Finally we have Martial magic. By altering the shape of their soul they can change the course of the mana
+            flowing
+            through their bodies, giving them some additional advantages over the classes that can actually utilize
+            actual magic.
+            <br>
+            WARNING: attempting to change the fundamental shape of your soul is a VERY bad idea unless you know
+            EXACTLY what you're
+            doing.
+            When a mage uses magic they use their soul to process the mana inside of them and shape it on it's way out
+            to form their
+            target spell, they don't actually do anything that changes or moves the soul unnaturally. The reason it's
+            so dangerous
+            to change the shape of the soul is because when you do you could cause mana blockages in the body,
+            resulting in affects
+            similar to if you poured lead into a person's bloodstream. Mana becomes very volatile when forced to hold
+            still in one
+            spot. On top of essentially poisoning the person, as it condenses due to the blockage and gains a high
+            enough
+            concentration it can also begin processing on it's own, resulting in additional random effect(s) or just
+            mutating the
+            body of the individual, kind of like wild magic. That is, assuming they live long enough to get to that
+            stage and don't
+            seek help from a highly skilled healer to fix their soul. So anything from transforming into a monster to
+            exploding into
+            a massive fireball can happen.
+            Moral of the story? Don't fuck with souls. You won't like what happens.
+            <br><br>
             <!-- #endregion -->
           </div>
           <div class="modal-footer">
@@ -242,68 +255,140 @@
             <br><br>
             During combat each round lasts 12 seconds, and during that round each player gets 2 actions/at wills and 1
             reaction that they can use.
+            <br><br>
             <div class="modal-footer">
             </div>
           </div>
         </div>
       </div>
-      <!-- #endregion: combat -->
+    </div>
+    <!-- #endregion: combat -->
 
 
 
-      <!-- #region: familiars -->
-      <div class="modal fade" id="familiar" tabindex="-1" aria-labelledby="familiarLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-4" id="familiarLabel">
-                Familiars
-              </h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              Anyone who has the capability to wield magic can form the familiar bond with any willing creature of
-              similar strength.
-              The process can take upwards of multiple days of meditation to complete, but once created the familiar
-              bond is something
-              that can't be easily broken as it links your soul with the soul of the creature. The familiar will gain
-              new abilities
-              and strength as it draws its power from you to grow. Familiars level with you gain special abilities
-              related to your own
-              class, or classes, but if they die you will suffer greatly from the shattering of the bond.
-              <br><br>
-              Familiars have the ability to communicate mentally with it's soul bonded, on top of that you can look
-              through your
-              familiars eyes, hear through their ears, and experience what their other senses experience. This action
-              does leave you
-              vulnerable though since your senses will be replaced with the familiars.
-              <div class="modal-footer">
-              </div>
+    <!-- #region: familiars -->
+    <div class="modal fade" id="familiars" tabindex="-1" aria-labelledby="familiarsLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4" id="familiarsLabel">
+              Familiars
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Anyone who has the capability to wield magic can form the familiar bond with any willing creature of
+            similar strength.
+            The process can take upwards of multiple days of meditation to complete, but once created the familiar
+            bond is something
+            that can't be easily broken as it links your soul with the soul of the creature. The familiar will gain
+            new abilities
+            and strength as it draws its power from you to grow. Familiars level with you gain special abilities
+            related to your own
+            class, or classes, but if they die you will suffer greatly from the shattering of the bond.
+            <br><br>
+            Familiars have the ability to communicate mentally with it's soul bonded, on top of that you can look
+            through your
+            familiars eyes, hear through their ears, and experience what their other senses experience. This action
+            does leave you
+            vulnerable though since your senses will be replaced with the familiars.
+            <br><br>
+            <div class="modal-footer">
             </div>
           </div>
         </div>
-        <!-- #endregion: familiars -->
+      </div>
+    </div>
+    <!-- #endregion: familiars -->
 
 
 
-        <!-- #region: familiars -->
-        <!-- <div class="modal fade" id="familiars" tabindex="-1" aria-labelledby="familiarsLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-4" id="familiarsLabel">
-                  Familiars
-                </h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                ...
-                <div class="modal-footer">
-                </div>
-              </div>
+    <!-- #region: the point system -->
+    <div class="modal fade" id="pointSystem" tabindex="-1" aria-labelledby="pointSystemLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4" id="pointSystemLabel">
+              The Point System and How It Works
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Calculator for points:
+            <br>
+            Number of Encounters/day (Number of Turns in an average fight * number of abilities expected to be used for
+            turn) All
+            multiplied by 2/3
+            <br><br>
+            Magic and limited resource abilities like magic will be based off a point system. Players will get a certain
+            number of
+            points per day to spend. This applies mostly to magic though. On top of magic not having a set number of
+            spell slots
+            there also isn't a set amount of damage dice, buffs, etc. There will be a base line and a number of points
+            it costs to
+            use that spell. Players can use more points to increase the spells potency, but should be wary of going
+            overboard since
+            points can't be regained until after a long rest.
+            <br><br>
+            <div class="modal-footer">
             </div>
-          </div> -->
-        <!-- #endregion: familiars -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion: the point system -->
+
+
+
+    <!-- #region: catalysts -->
+    <div class="modal fade" id="catalyst" tabindex="-1" aria-labelledby="catalystLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4" id="catalystLabel">
+              Catalyst Rules for bonded creatures
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            You can try to tame bond with beasts you encounter. Make an animal handling check, against a DC the CR of a
+            creature +
+            its Attitude modifier (indicated below). On a successful check, you have bonded with the beast. Tamed beasts
+            are
+            friendly towards you and your allies and are loyal to you. Has to have an intelligence of 2 or higher
+            <br><br>
+            Aggressive = 22 -or- Defensive = 18 to Indifferent
+            <br><br>
+            Indifferent = 14 to Friendly
+            <br><br>
+            Friendly = 11 to Tamed
+            <br><br>
+            You can only perform a check on a creature to lower or its attitude once per hour. If you fail you have to
+            wait an hour
+            to try again. In this way, to calm a creature from Aggressive or Defensive to Tamed, it would take 3
+            successful checks
+            over 2 hours
+            <br>
+            After the beast has become friendly you must spend 1d6 + creature CR hours meditating to achieve a full
+            bond. If you're
+            interrupted during this process you'll have to start over
+            <br><br>
+            Intelligent bonds:
+            If you wish to bond with a creature with 12 or higher intellect similar rules will apply, but rather than
+            animal
+            handling you'll be making persuasion checks. The creature must also be willing, and for some they won't be
+            willing no
+            matter how high the player roles. Since they have intelligence they will understand that they'll be in a
+            subservient
+            position
+            <br><br>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion: catalysts -->
 
   </section>
 </body>
