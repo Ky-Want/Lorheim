@@ -16,10 +16,10 @@
 
 
 
-<body>
+<body class="bg-image">
   <section class="container mt-4">
     <!-- Button triggers for the modals -->
-    <div>
+    <div class="d-flex justify-content-around">
       <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal"
         data-bs-target="#magicNSouls">
         <div class="fs-5">Magic and Souls</div>
@@ -27,6 +27,15 @@
 
       <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal" data-bs-target="#stats">
         <div class="fs-5">Stats</div>
+      </button>
+
+      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal" data-bs-target="#combat">
+        <div class="fs-5">Combat</div>
+      </button>
+
+      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal"
+        data-bs-target="#familiar">
+        <div class="fs-5">Familiars</div>
       </button>
     </div>
 
@@ -160,25 +169,141 @@
 
 
 
-    <!-- #region: souls and magic -->
+    <!-- #region: stats -->
     <div class="modal fade" id="stats" tabindex="-1" aria-labelledby="statsLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <h1 class="modal-title fs-4" id="statsLabel">
-              Title
+              Stats
             </h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            ...
+            <strong>Strength</strong>
+            <br>
+            *Athletics
+            <br><br>
+
+            <strong>Dexterity</strong>
+            <br>
+            *Acrobatics <br>
+            *Sleight of Hand <br>
+            *Stealth
+            <br><br>
+
+            <strong>Wisdom</strong>
+            <br>
+            *Animal Handling <br>
+            *Insight <br>
+            *Medicine <br>
+            *Perception <br>
+            *Survival
+            <br><br>
+
+            <strong>Intelligence</strong>
+            <br>
+            *Arcana <br>
+            *History <br>
+            *Investigation <br>
+            *Nature <br>
+            *Religion
+            <br><br>
+
+            <strong>Charisma</strong>
+            <br>
+            *Deception <br>
+            *Intimidation <br>
+            *Performance <br>
+            *Persuasion
+            <br><br>
           </div>
           <div class="modal-footer">
           </div>
         </div>
       </div>
     </div>
-    <!-- #endregion: souls and magic -->
+    <!-- #endregion: stats -->
+
+
+
+    <!-- #region: combat -->
+    <div class="modal fade" id="combat" tabindex="-1" aria-labelledby="combatLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4" id="combatLabel">
+              Combat
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Each encounter should last between 6 and 8 rounds + 2 to 3 encounters per day.
+            <br><br>
+            During combat each round lasts 12 seconds, and during that round each player gets 2 actions/at wills and 1
+            reaction that they can use.
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #endregion: combat -->
+
+
+
+      <!-- #region: familiars -->
+      <div class="modal fade" id="familiar" tabindex="-1" aria-labelledby="familiarLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-4" id="familiarLabel">
+                Familiars
+              </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Anyone who has the capability to wield magic can form the familiar bond with any willing creature of
+              similar strength.
+              The process can take upwards of multiple days of meditation to complete, but once created the familiar
+              bond is something
+              that can't be easily broken as it links your soul with the soul of the creature. The familiar will gain
+              new abilities
+              and strength as it draws its power from you to grow. Familiars level with you gain special abilities
+              related to your own
+              class, or classes, but if they die you will suffer greatly from the shattering of the bond.
+              <br><br>
+              Familiars have the ability to communicate mentally with it's soul bonded, on top of that you can look
+              through your
+              familiars eyes, hear through their ears, and experience what their other senses experience. This action
+              does leave you
+              vulnerable though since your senses will be replaced with the familiars.
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- #endregion: familiars -->
+
+
+
+        <!-- #region: familiars -->
+        <!-- <div class="modal fade" id="familiars" tabindex="-1" aria-labelledby="familiarsLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-4" id="familiarsLabel">
+                  Familiars
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+                <div class="modal-footer">
+                </div>
+              </div>
+            </div>
+          </div> -->
+        <!-- #endregion: familiars -->
 
   </section>
 </body>

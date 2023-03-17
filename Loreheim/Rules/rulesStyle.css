@@ -2,7 +2,6 @@
   background-color: rgb(181, 181, 203);
 }
 
-.btn-grey {
-  background-color: rgb(168, 168, 168);
-  color: grey;
+.bg-image {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2017%2F03%2F27%2F275722-artwork-digital_art-concept_art-Dungeons_and_Dragons-Dungeons_and_Dragons.jpg&f=1&nofb=1&ipt=cab1c89e715ce4714fc084dac0790a5ab5e4e67c8b4bc6301c913c1b15ea520d&ipo=images");
 }
