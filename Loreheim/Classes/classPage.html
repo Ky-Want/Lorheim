@@ -17,7 +17,7 @@
 
 
 <body class="bg-img">
-
+  <!-- Nav bar -->
   <div class="d-flex justify-content-around bg-blue-grey p-3">
     <a href="../index.html"><button class="rounded-2 fs-5">Home</button></a>
 
@@ -40,22 +40,125 @@
 
 
 
+  <!-- Class collapsible's -->
   <section class="container">
+    <!-- Arcane classes -->
     <button type="button" class="collapsible mt-5 fs-4"><strong>Arcane classes</strong></button>
     <div class="content">
-      <p>Text stuff</p>
+      <div class="d-flex justify-content-around m-3">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#healer">
+          <div class="fs-5">Healer</div>
+        </button>
+
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mage">
+          <div class="fs-5">Mage</div>
+        </button>
+
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#bard">
+          <div class="fs-5">Bard</div>
+        </button>
+
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#divineKnight">
+          <div class="fs-5">Divine knight</div>
+        </button>
+      </div>
     </div>
 
+    <!-- Naturae classes -->
     <button type="button" class="collapsible mt-5 fs-4"><strong>Naturae classes</strong></button>
     <div class="content">
-      <p>Text stuff</p>
+      <div class="d-flex justify-content-around m-3">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#catalyst">
+          <div class="fs-5">Catalyst</div>
+        </button>
+
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#necromancer">
+          <div class="fs-5">Necromancer</div>
+        </button>
+
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#druid">
+          <div class="fs-5">Druid</div>
+        </button>
+      </div>
     </div>
 
+    <!-- Martial classes -->
     <button type="button" class="collapsible mt-5 fs-4"><strong>Martial classes</strong></button>
     <div class="content">
-      <p>Text stuff</p>
+      <div class="d-flex justify-content-around m-3">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#alchemist">
+          <div class="fs-5">Alchemist</div>
+        </button>
+
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="medic">
+          <div class="fs-5">Medic</div>
+        </button>
+
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="juggernaut">
+          <div class="fs-5">Juggernaut</div>
+        </button>
+
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="rogue">
+          <div class="fs-5">Rogue</div>
+        </button>
+
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="runeKeeper">
+          <div class="fs-5">Rune Keeper</div>
+        </button>
+
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="warrior">
+          <div class="fs-5">Warrior</div>
+        </button>
+
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="warrior">
+          <div class="fs-5">Witch Hunter</div>
+        </button>
+      </div>
     </div>
   </section>
+
+
+
+  <!-- Modals -->
+  <div class="modal fade" id="healer" tabindex="-1" aria-labelledby="healerLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="healerLabel">
+            Healer
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <i>Skilled in the arcane art of mending the broken, healers are highly sought after and often sent to the
+            front lines.
+            Unlike medics healers aren't suited for combat at all. They specialize in keeping the people around them
+            alive no matter
+            how many hits they may take, though some have learned a few tricks to help protect themselves when in
+            combat.</i><br><br>
+
+          <strong>Class Features</strong><br>
+          <i>As a Healer you gain the following features:</i><br><br>
+
+          <strong>Hit Points</strong><br>
+          Hit Dice: 1d6/level <br>
+          Hit Points: 6 + Constitution modifier <br>
+          Hit Points at Higher Levels: 1d6 + Con <br><br>
+
+          <strong>Proficiencies</strong><br>
+          Weapons: Simple weapons <br>
+          Saving throws: Wisdom, Intelligence <br>
+          Skills: Choose three from Arcana, Medicine, Nature, Perception, Investigation, Acrobatics, Persuasion
+
+          <br><br><br>
+
+          ...
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
