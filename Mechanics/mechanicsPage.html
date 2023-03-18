@@ -97,6 +97,11 @@
         data-bs-target="#startingGear">
         <div class="fs-5">Starting Gear</div>
       </button>
+
+      <button type="button" class="btn btn-secondary btn-outline-dark btn-size" data-bs-toggle="modal"
+        data-bs-target="#conditions">
+        <div class="fs-5">Conditions</div>
+      </button>
     </div>
 
 
@@ -762,6 +767,128 @@
             <p>*Scholar's Pack (40 sp) Includes a backpack, a book of lore, a bottle of ink, an ink pen, 10 sheets of
               parchment, a
               little bag of sand, and a small knife.</p>
+            <br>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion -->
+
+
+    <!-- #region: conditions -->
+    <div class="modal fade" id="conditions" tabindex="-1" aria-labelledby="conditionsLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4" id="conditionsLabel">
+              Conditions
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- blinded -->
+            <strong>Blinded</strong><br>
+            <p>A blinded creature can't see and automatically fails any ability check that requires sight.
+              Attack rolls against the creature have advantage, and the creature's Attack rolls have disadvantage.</p>
+            <br>
+
+            <!-- charmed -->
+            <strong>Charmed</strong><br>
+            <p>A charmed creature can't attack the charmer or target the charmer with harmful Abilities or Magical
+              Effects.
+              The charmer has advantage on any ability check to interact socially with the creature.</p><br>
+
+            <!-- deafened -->
+            <strong>Deafened</strong><br>
+            <p>A deafened creature can't hear and automatically fails any ability check that requires hearing.</p><br>
+
+            <!-- frightened -->
+            <strong>Frightened</strong><br>
+            <p>A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is
+              within Line of
+              Sight.
+              The creature can't willingly move closer to the source of its fear.</p><br>
+
+            <!-- grappled -->
+            <strong>Grappled</strong><br>
+            <p>A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.
+              The condition ends if the Grappler is incapacitated (see the condition).
+              The condition also ends if an Effect removes the grappled creature from the reach of the Grappler or
+              Grappling Effect,
+              such as when a creature is hurled away by a spell.</p><br>
+
+            <!-- incapacitated -->
+            <strong>Incapacitated</strong><br>
+            <p>An incapacitated creature can't take actions or reactions.</p><br>
+
+            <!-- invisible -->
+            <strong>Invisible</strong><br>
+            <p>An invisible creature is impossible to see without the aid of magic or a Special sense. For the Purpose
+              of
+              hiding, the
+              creature is heavily obscured. The creature's Location can be detected by any noise it makes or any tracks
+              it
+              leaves.
+              Attack rolls against the creature have disadvantage, and the creature's Attack rolls have advantage.</p>
+            <br>
+
+            <!-- paralyzed -->
+            <strong>Paralyzed</strong><br>
+            <p>A paralyzed creature is incapacitated (see the condition) and can't move or speak.
+              The creature automatically fails Strength and Dexterity saving throws.
+              Attack rolls against the creature have advantage.
+              Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</p>
+            <br>
+
+            <!-- petrified -->
+            <strong>Petrified</strong><br>
+            <p>A petrified creature is Transformed, along with any objects it is wearing or carrying, into a
+              solid inanimate
+              substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.
+              The creature is incapacitated (see the condition), can't move or speak, and is unaware of its
+              surroundings.
+              Attack rolls against the creature have advantage.
+              The creature automatically fails Strength and Dexterity saving throws.
+              The creature has resistance to all damage.
+              The creature is immune to poison and disease, although a poison or disease already in its system is
+              suspended, not
+              neutralized.</p><br>
+
+            <!-- poisoned -->
+            <strong>Poisoned</strong><br>
+            <p>A poisoned creature loses max hp equal to half the damage being dealt by the poison each round after the
+              third round of being poisoned.</p><br>
+
+            <!-- prone -->
+            <strong>Prone</strong><br>
+            <p>A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.
+              The creature has disadvantage on attack rolls.
+              An attack roll against the creature has advantage if the attacker is within 5 feet of the creature.
+              Otherwise, the
+              Attack roll has disadvantage.</p><br>
+
+            <!-- restrained -->
+            <strong>Restrained</strong><br>
+            <p>A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.
+              Attack rolls against the creature have advantage, and the creature's Attack rolls have disadvantage.
+              The creature has disadvantage on Dexterity saving throws.</p><br>
+
+            <!-- stunned -->
+            <strong>Stunned</strong><br>
+            <p>A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.
+              The creature automatically fails Strength and Dexterity saving throws.
+              Attack rolls against the creature have advantage.</p><br>
+
+            <!-- unconscious -->
+            <strong>Unconscious</strong><br>
+            <p>An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its
+              surroundings
+              The creature drops whatever it's holding and falls prone.
+              The creature automatically fails Strength and Dexterity saving throws.
+              Attack rolls against the creature have advantage.
+              Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</p>
             <br>
             <div class="modal-footer">
             </div>
