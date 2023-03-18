@@ -47,34 +47,37 @@
 
     <!-- Button triggers for the modals -->
     <div class="d-flex justify-content-around">
-      <button type="button" class="btn btn-secondary btn-outline-dark button-size" data-bs-toggle="modal"
-        data-bs-target="#stats">
+      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal"
+        data-bs-target="#pointSystem">
+        <div class="fs-5">The Point System</div>
+      </button>
+
+      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal" data-bs-target="#stats">
         <div class="fs-5">Stats</div>
       </button>
 
-      <button type="button" class="btn btn-secondary btn-outline-dark button-size" data-bs-toggle="modal"
-        data-bs-target="#combat">
+      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal" data-bs-target="#combat">
         <div class="fs-5">Combat</div>
       </button>
 
-      <button type="button" class="btn btn-secondary btn-outline-dark button-size" data-bs-toggle="modal"
-        data-bs-target="#pointSystem">
-        <div class="fs-5">The Point System</div>
+      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal"
+        data-bs-target="#monsterCreation">
+        <div class="fs-5">Monster Creation</div>
       </button>
     </div>
 
     <div class="d-flex justify-content-around mt-5">
-      <button type="button" class="btn btn-secondary btn-outline-dark button-size" data-bs-toggle="modal"
+      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal"
         data-bs-target="#magicNSouls">
         <div class="fs-5">Magic and Souls</div>
       </button>
 
-      <button type="button" class="btn btn-secondary btn-outline-dark button-size" data-bs-toggle="modal"
+      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal"
         data-bs-target="#familiars">
         <div class="fs-5">Familiars</div>
       </button>
 
-      <button type="button" class="btn btn-secondary btn-outline-dark button-size" data-bs-toggle="modal"
+      <button type="button" class="btn btn-secondary btn-outline-dark" data-bs-toggle="modal"
         data-bs-target="#catalyst">
         <div class="fs-5">Catalysts</div>
       </button>
@@ -413,6 +416,42 @@
       </div>
     </div>
     <!-- #endregion: catalysts -->
+
+
+    <!-- #region: monster creation -->
+    <div class="modal fade" id="monsterCreation" tabindex="-1" aria-labelledby="monsterCreationLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4" id="monsterCreationLabel">
+              Monster creation: rules and references
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>The templates I use to build my monsters comes from <a href="https://ebshimizu.github.io/5emm/#/"
+                target="_blank" rel="noopener noreferrer">Falindrith's Monster Maker</a>.</p><br><br>
+
+            <strong>Balancing Enemy HP:</strong><br>
+            <p>First, calculate the average damage output for the party. Each party member has two actions, so if there
+              are three party members then about 4 to 6 attacks will be made each turn on average most likely. Taking
+              into account the dice being fickle about 3 attacks should hit each round. Lets say each attack has the
+              ability to do 6 damage, that'll be about 18. So a good average would be 9
+              damage per turn.</p>
+            <p>Now to determine how long the enemy should last. On average I like combat to last between 6 and 8 rounds.
+              So, if the party is doing about 9 damage per round the enemy should have between 54 and 72 health.</p>
+            <br><br>
+
+            <strong>Balancing Enemy Damage Output</strong>
+            <p></p>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion -->
 
   </section>
 </body>
