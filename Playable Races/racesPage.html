@@ -14,6 +14,10 @@
   <!-- #endregion -->
 </head>
 
+
+
+
+
 <body class="bg-image">
 
   <div class="d-flex justify-content-around bg-blue-grey p-3">
@@ -36,7 +40,529 @@
     </div>
   </div>
 
+
+
+
+  <!-- Playable races cards -->
+
+  <section class="container mt-5">
+    <!-- first row -->
+    <div class="d-flex justify-content-around">
+      <div class="card bttn" style="width: 18rem;">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flh3.googleusercontent.com%2Fproxy%2Fiyr18jJVDtRu5kbBKcWEVTv-AEy9yxphzr9u-dSmBzxmI0zs7sO_5GR1Fd8HGD0Eb8XKmaiJjBJI8ks5ka9x2pT0meBDHnkJXXHo-Gv5BEdqnHHChcsHztHG%3Dw1200-h630-p-k-no-nu&f=1&nofb=1&ipt=cd3b353b8f49cf3c2bb05ed0a0d87de3097162ace69f524d465ef98e19437ce6&ipo=images"
+          class="card-img-top card-image">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">Humans</h5>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#humans" class="btn btn-primary">Race
+            Details</button>
+        </div>
+      </div>
+
+      <div class="card bttn" style="width: 18rem;">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.imgur.com%2F1AU9Wn9.png&f=1&nofb=1&ipt=64325e1b293c128d0291c4d8e3e69e38aae9f7e4323bab042c53690d0268fe3a&ipo=images"
+          class="card-img-top">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">Dwarves</h5>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#dwarves" class="btn btn-primary">Race
+            Details</button>
+        </div>
+      </div>
+
+      <div class="card bttn" style="width: 18rem;">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F474x%2Faa%2F74%2F18%2Faa7418910db23dd9a734d38c476817fc.jpg&f=1&nofb=1&ipt=07d2e4c96f75869aaf7a51200e8862886e1c922d7501d49a99bb2ae06ddd9331&ipo=images"
+          class="card-img-top">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">Fae</h5>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#fae" class="btn btn-primary">Race
+            Details</button>
+        </div>
+      </div>
+
+      <div class="card bttn" style="width: 18rem;">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F0d%2F32%2F51%2F0d32510826c9449e4991349322063c7e.png&f=1&nofb=1&ipt=33a3085862d7baba278c19bb68d3acea9492af7e0751c754073372c376817aa2&ipo=images"
+          class="card-img-top">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">Lizardfolk</h5>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#lizardfolk" class="btn btn-primary">Race
+            Details</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- second row -->
+    <div class="d-flex justify-content-around mt-5 pt-3 mb-5 pb-4">
+      <div class="card bttn" style="width: 18rem;">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F4b%2Fe8%2Fc4%2F4be8c4ffe0638bea4d2861c6903480e7.png&f=1&nofb=1&ipt=eb9cb5d2b1e691f718cb72dbb13556a426343c96fe385b661c53cdd91f759c3f&ipo=images"
+          class="card-img-top">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">Fallen Astre</h5>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#fallenAstre" class="btn btn-primary">Race
+            Details</button>
+        </div>
+      </div>
+
+      <div class="card bttn" style="width: 18rem;">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F49%2Fb5%2F38%2F49b538969e758eb2b5d21f42a160c41e.jpg&f=1&nofb=1&ipt=e7923b890208c840e609bf767a2ce9c61252ed99dbcd3294db9623a0b90e7563&ipo=images"
+          class="card-img-top">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">Fae Kin</h5>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#faeKin" class="btn btn-primary">Race
+            Details</button>
+        </div>
+      </div>
+
+      <div class="card bttn" style="width: 18rem;">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F03%2Fe6%2F39%2F03e63932fb4b4b14c20d39fc2ff83dd4.jpg&f=1&nofb=1&ipt=beecdff31512a71868c927a8df56a932bba8e55b0b56a2be0981dee5479c205c&ipo=images"
+          class="card-img-top">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">Warforged</h5>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#warforged" class="btn btn-primary">Race
+            Details</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Playable races modals -->
+
+  <!-- #region: humans -->
+  <div class="modal fade" id="humans" tabindex="-1" aria-labelledby="humansLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="humansLabel">
+            Humans
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Humans. The number one most prolific humanoid race on the planet. Considering the nature of their
+            squishiness and the
+            dangers the world of Loreheim holds one would normally assume these rabid little chihuahuas would have gone
+            extinct by
+            now, but no. They're somehow just as stubbornly adaptive as they are prolific.</p><br>
+
+          <strong>BENEFITS:</strong><br>
+          +1 to three stats of your choosing <br>
+          Adaptive: You can start in any location of your choosing and take no debuffs from your home environment (eg.
+          If you
+          start in the dessert you'll get advantage on saves to withstand extreme heat, but disadvantage to withstand
+          the cold) <br><br>
+
+          <strong>DRAWBACKS:</strong><br>
+          Squishy and tasty with ketchup: Monsters will see you as easy prey and attack you more frequently and first if
+          they can
+          easily get to you.
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+
+  <!-- #region: dwarves -->
+  <div class="modal fade" id="dwarves" tabindex="-1" aria-labelledby="dwarvesLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="dwarvesLabel">
+            Dwarves
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Deep within the world dwells the race of dwarves. They are famous for being as hardy and stubborn as
+            the stone they
+            build their cities from, along with their incredible craftsmanship. Speaking of craftsmanship, their talent
+            for it has
+            nothing to do with skill or any kind of training, though they do hone their craft to perfection. Rather,
+            their ability
+            to shape the stones and metals of Loreheim comes from their reproductive instincts. When a female dwarf is
+            ready to have
+            a child they travel to the "Core" with family and sometimes very close friends. The core is a living mass of
+            stone that
+            carries high quantities of mana. Each community has a core, and every dwarf who lives around the core was
+            carved from
+            it. When a new dwarf is being carved the relatives will stand guard and watch until the mother is done
+            shaping her new
+            child, and once they are fully formed the watchers will each have the chance to carve a rune upon the
+            child's body
+            representing a positive trait (eg. Strong, bold, loyal, etc.). Once done the core will "breathe life" into
+            the child and
+            the mother will return to the community and raise the child to adulthood. The entire process is considered a
+            sacred
+            tradition that not even all relatives are guaranteed a chance to witness. No one really knows how or why the
+            process
+            works, and no outsider has ever been allowed close enough to study it.
+            As the children grow the marks given to them take on the appearance of tattoos while they make the
+            transition of stone
+            to flesh over the course of a week or two.</p><br><br>
+
+          <strong>BENEFITS:</strong><br>
+          +2 to con and +1 to str <br>
+          Child of stone: +2 to Con saves vs poisons and drugs <br><br>
+
+          <strong>DRAWBACKS:</strong><br>
+          Alien: Many of the more "natural" races think of you as alien and unnatural due to your origins and may not be
+          very
+          welcoming towards you.
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+
+  <!-- #region: Fae -->
+  <div class="modal fade" id="fae" tabindex="-1" aria-labelledby="faeLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="faeLabel">
+            Fae
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>The Fae come in many shapes and sizes depending on the race they mutated from after the Astre fell to their
+            continent
+            and brought their unique mana with them. This variety ranges from the savage western Orcs all the way to the
+            now extinct
+            Elves and some who's race of origin is indiscernible, such as the bone and tooth fae. Below are a few of the
+            possible
+            variants you could play as, but be warned, you won't be welcomed with open arms by many of the civilized
+            races
+            (especially humans) due to your otherworldly, and in some cases, disturbing nature. Among their many unique
+            traits a
+            common one all fae share is that they stop aging upon reaching maturity. Their growth rates differ based
+            upon their race
+            of origin, but it always stops once they're mature. Just as with all other mortals they can still perish to
+            illness,
+            injury, and other natural causes excluding age.
+          </p><br><br><br>
+
+          <!-- elven fae -->
+          <p>Elven Fae: Having originated from the now extinct race of elves, elven fae retained the ethereal beauty
+            elves
+            used to be
+            famous for and then some. Much like the rest of their kind, these fae have a penchant for meat, but to a
+            much
+            higher and
+            more magical degree than the others like them. Through the years these fae have developed the ability to
+            consume the
+            memories of those they cannibalize. While most other sentient races view this as a horrifying act, the fae
+            simply see it
+            as a special tradition and a great responsibility to carry on the memories of those before them.</p>
+
+          <strong>BENEFITS:</strong><br>
+          +2 cha, +1 con <br>
+          Consume: When consuming the flesh of a newly deceased humanoid you can gain flashes of various memories from
+          the beings
+          past. WARNING, just because you can eat raw flesh doesn't mean you're immune to diseases that can be
+          transmitted by
+          corpses and certain body parts. <br><br>
+
+          <strong>DRAWBACKS:</strong><br>
+          Cannibal: You're a monster in the eyes of the people despite your unparalleled beauty. If you're recognized as
+          an elven
+          fae you will, at best, be avoided like the plague, and at worst driven out of the community with torches,
+          pitchforks,
+          and death threats.
+
+          <br><br><br>
+
+          <!-- Irkyne -->
+          <p>Irkyne: The Irkyne are a group of warrior fae that roam the Fae Isle in clans. These fearsome creatures
+            were
+            born from
+            orcs and similarly large and intimidating races. They are most well known for their hulking size, often
+            standing upwards
+            of seven feet tall with varying shades of skin ranging from blue to green to even obsidian black in some
+            cases. That
+            paired with their horns that differ from group to group makes them quite the terrifying opponent.</p>
+
+          <strong>BENEFITS:</strong><br>
+          +3 str, +1 con, -1 cha <br>
+          Brute: What you lack in charm you more than make up for in shear size and strength. Gain a +2 to strength
+          based checks
+          and saves. <br><br>
+
+          <strong>DRAWBACKS:</strong><br>
+          Beast: Your strange and fearsome appearance makes even the bravest of souls wary of you.
+
+          <br><br><br>
+
+          <!-- Nixie -->
+          <p>Nixie: These small creatures stand typically around three to four feet tall and bear the appearance of wild
+            children who
+            were raised by nature herself. While they look humanoid, their origins are a mystery and they also give off
+            the unique
+            feeling most fae do, often making the few who have the luck (or misfortune) of meeting one instantly on
+            edge. Upon
+            closer inspection they have been noted to have large eyes that reflect light and green tinted skin. The
+            vines, leaves,
+            and sometimes moss that many assume to have caught in their hair actually grows from it naturally.</p>
+
+          <strong>BENEFITS:</strong><br>
+          +1 dex, +2 wis <br>
+          Nature's favorite: As a Nixie you are gifted with the ability to hear the voices of animals and plants. While
+          you can't
+          speak the same language as the animals and plants (rendering communication impossible) you can get a general
+          idea of
+          what they're trying to communicate most of the time. Survival checks are made with a +2 and animals are more
+          friendly
+          towards you as long as you aren't actively appearing as a threat to them. <br><br>
+
+          <strong>DRAWBACKS:</strong><br>
+          Uncivilized: Speaking with civilized races isn't your strong suite, so checks that require you to interact
+          with people
+          are made with a -2.
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+
+  <!-- #region: lizardfolk -->
+  <div class="modal fade" id="lizardfolk" tabindex="-1" aria-labelledby="lizardfolkLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="lizardfolkLabel">
+            Lizardfolk
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>There are two variations of Lizardfolk. The Valkin and the Ferin. The Valkin live in extremely humid areas,
+            like the
+            jungles of NosVite. They come in almost every color known to man and grow a similarly vibrant array of
+            feathers on the
+            back of their head and carry lethal poisons that they use to strike down prey and enemies alike. Valkin tend
+            to live in
+            small tribes in homes built high above the ground using woven together branches to form their nests. They're
+            also
+            extremely territorial and aggressive. The Ferin are more partial to living on the coasts near settlements.
+            They often do
+            trade with small part towns and cities who benefit from the added security of living in coexistence with the
+            Ferin.
+            While much more easy going than their Valkin cousins, the Ferin are just as capable of violence, if not more
+            so. Also
+            unlike the Valkin, Ferin come in dull blue and grey hues and are built more for swimming than climbing.
+          </p><br>
+
+          <!-- valkin -->
+          <strong>Valkin</strong><br>
+          <strong>BENEFITS:</strong><br>
+          +2 str, +1 con <br>
+          Poisonous: 1/day you can make a normal melee attack to bite a creature. If you succeed, the enemy must make a
+          con save
+          or suffer 1d6 + con poison damage until they make their save, get cured, or die. <br><br>
+
+          <strong>DRAWBACKS:</strong><br>
+          Violent: As the name of the trait states, you're kind are known for incredible violence, especially when it
+          comes to
+          territorial disputes. This has led to some unfortunate situations and a general distrust among the other races
+          towards
+          your kind. <br><br><br>
+
+
+          <!-- ferin -->
+          <strong>Ferin</strong><br>
+          <strong>BENEFITS:</strong><br>
+          +2 dex, +1 str <br>
+          Adept swimmer: Having lived in the water all your life you've gotten used to swimming at top speeds to keep
+          away from
+          predators or to catch fish. Your swim speed is the same as your walking speed and you can hold your breath for
+          up to
+          three hours. <br><br>
+
+          <strong>DRAWBACKS:</strong><br>
+          Aquatic: Ferin tend to spend more time under water than not, so it's usually quite uncomfortable to be on land
+          for them
+          and takes a lot of time to adjust to the change in environment.
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+
+  <!-- #region: fallen Astre -->
+  <div class="modal fade" id="fallenAstre" tabindex="-1" aria-labelledby="fallenAstreLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="fallenAstreLabel">
+            Fallen Astre
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>The Astre are heavenly beings with large white wings and red eyes, otherwise appearing similar to humans.
+            It is said
+            that they were created when Itris plucked the brightest and most beautiful stars from the sky and shaped
+            them into souls
+            before placing them within the vessels she had created for her perfect soldiers. The Astre were created with
+            the sole
+            purpose of being her hands, eyes, shields, and swords in the mortal realm. They offered guidance to their
+            goddesses
+            chosen few and struck down those who offended her. This is how it always was, and how it seemed it would
+            always be,
+            until one day a handful of Astre started to become frustrated with the way they were being treated, as if
+            they were mere
+            tools and nothing more. They confronted their goddess over the matter, and as a result she became enraged
+            and threw them
+            down from the Celestial realm, Regna Caelum. These fallen Astre now wander Loreheim, some seeking
+            redemption, some
+            revenge, and some simply wander aimlessly without any purpose.</p><br>
+
+          <strong>BENEFITS:</strong><br>
+          +1 wis, +1 con <br>
+          Burning soul: Despite being fallen, you still retain the flaming essence you were created with. You have
+          resistance to
+          fire and 1/day you can deal an extra 1d4 fire damage with a melee attack. <br><br>
+
+          <strong>DRAWBACKS:</strong><br>
+          Fallen: You have fallen from Itris' grace, and thus she has clipped your wings. While you can glide small
+          distances at a
+          time, you can't fly and are shunned by her followers.
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+
+  <!-- #region: Fae Kin -->
+  <div class="modal fade" id="faeKin" tabindex="-1" aria-labelledby="faeKinLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="faeKinLabel">
+            Fae Kin
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>As they have with every other race, the humans have mingled with fae, since they seem to have no sense of
+            self
+            preservation. These occasional unions have spawned very few offspring, but there have still been some
+            successful cases.
+            The human blood in these offspring have diluted the mutations just enough to make them look somewhat more
+            normal, but
+            the traces of the fae bloodline isn't erased entirely. These beings have a variety of traits inherited from
+            their fae
+            blood including but not limited to slightly finer features, skin tinted in unnatural looking shades, the
+            small
+            beginnings of horns, larger frames, and more.</p><br>
+
+          <strong>BENEFITS:</strong><br>
+          +2 Dex, and +2 to any stat of your choice or +1 to two stats <br>
+          Keen senses: Having come from a line with unnatural senses, you inherited some improvements to your vision,
+          hearing, and
+          other senses. Gain +2 to perception. <br>
+          Eternal bloodline: Fae Kin share how they age with their fae relatives, that being that they don't age a bit
+          after
+          reaching full maturity. <br><br>
+
+          <strong>DRAWBACKS:</strong><br>
+          -2 Con. While humans are technically compatible with some fae, it doesn't necessarily mean they should
+          procreate.
+          Children that come from such a union tend to have minor complications with their health. Usually it's nothing
+          serious
+          enough to be life threatening, but it does make life inconvenient at the best of times.
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
+
+  <!-- #region: warforged -->
+  <div class="modal fade" id="warforged" tabindex="-1" aria-labelledby="warforgedLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="warforgedLabel">
+            Warforged
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>A warforged is created when a soul is artificially placed inside a construct with the proper enchantments
+            and runes to
+            replicate a living entity without actually being a living entity. The warforged, as they are now called, are
+            beings made
+            of metal, wood, and occasionally other materials. Early into the development of the mage kingdoms on Airith
+            the
+            warforged were made for farm work or household chores and similar tasks. Some were designed for more
+            complicated jobs,
+            but for the most part they were created with the intention of making it easier for the mages of Airith to
+            focus on their
+            research. Once the war broke out they were repurposed, and after the massive magical explosion that tore
+            apart the
+            continent some made it out intact enough to continue functioning, and of those who made it out a few gained
+            sentience
+            through varying means.</p><br>
+
+          <strong>BENEFITS</strong><br>
+          +2 con, and +1 to one other ability of your choosing <br>
+          Mechanical being: Due to your inhuman nature you have no need to eat, drink, or breath. On top of that you are
+          immune to
+          disease and when taking a long rest you only need to spend 6 hours in an inactive, motionless state. When
+          inactive you
+          can still see and hear as normal. <br><br>
+
+          <strong>DRAWBACKS</strong><br>
+          Unfeeling: Being a non-living creature has its upsides, but it also has some downsides. One of these downsides
+          being a
+          lack of emotion. Where normal creatures can at least feel basic fear, happiness, and pain, you feel nothing.
+          This makes
+          beings of the fleshy variety very difficult to interact with at times.
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
 </body>
+
+
+
+
+
+
+
+
 
 
 <!-- #region: Bootstrap JavaScript Libraries -->

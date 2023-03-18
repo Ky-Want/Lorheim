@@ -5,4 +5,16 @@
 .bg-image {
   background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages7.alphacoders.com%2F293%2F293772.jpg&f=1&nofb=1&ipt=e8ea8ab727aaf6815baea068e2b428554d7151f3268f1b3ab6ce27a51f8f83dd&ipo=images");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bttn {
+  transition: transform 290ms ease-in-out,
+    opacity 250ms linear;
+}
+
+.bttn:hover,
+.bttn:focus {
+  transform: scale(1.12);
 }
