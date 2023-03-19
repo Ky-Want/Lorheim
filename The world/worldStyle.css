@@ -7,3 +7,13 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.bttn {
+  transition: transform 290ms ease-in-out,
+    opacity 250ms linear;
+}
+
+.bttn:hover,
+.bttn:focus {
+  transform: scale(1.10);
+}
