@@ -25,6 +25,13 @@
   background-attachment: fixed;
 }
 
+.hybrid-bg {
+  background-image: url("https://c.wallhere.com/photos/23/ec/clockworks_steampunk-67296.jpg!d");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* #region: collapsible */
 .collapsible {
   background-color: #777;
