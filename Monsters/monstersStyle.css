@@ -13,6 +13,15 @@
   width: 8rem;
 }
 
+.livingCorpseImg {
+  height: 20rem;
+}
+
+
+
+
+
+/* #region: backgrounds */
 .bg {
   background-color: white;
   opacity: 0.95;
@@ -53,9 +62,16 @@
   background-attachment: fixed;
 }
 
-.livingCorpseImg {
-  height: 20rem;
+
+.terrent-bg {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F7a%2F42%2F45%2F7a42458e9424804af9561da9cb091ba1.jpg&f=1&nofb=1&ipt=9296c399f2813facc554f13d15cdfbe5c555d614591a13509faac7a98fef9c3a&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+/* #endregion */
+
 
 /* #region: collapsible */
 .collapsible {
