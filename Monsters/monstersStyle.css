@@ -32,6 +32,13 @@
   background-attachment: fixed;
 }
 
+.kaemen-bg {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2016%2F04%2F10%2F97902-desert-pilgrims-fantasy_art.jpg&f=1&nofb=1&ipt=f2372cf4a9d1665d6340ff57ab120ebeffb349f334cfa9a43c309950e9fdf202&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* #region: collapsible */
 .collapsible {
   background-color: #777;
