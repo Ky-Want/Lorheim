@@ -70,6 +70,41 @@
   background-attachment: fixed;
 }
 
+.rupes-bg {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F5a%2F40%2Fef%2F5a40ef9792c73168fa670e3a9f1de942.jpg&f=1&nofb=1&ipt=2b68d5535d8fb145bab611c0e4cf63e4d513661161971a8b81922d71d37e032d&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.railis-bg {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fget.wallhere.com%2Fphoto%2Fartwork-fantasy-city-town-digital-river-bridge-boat-medieval-old-bridge-old-building-magic-wizard-people-1743259.jpg&f=1&nofb=1&ipt=b8e2ebead12e1831e5348b41e7b197c564440cd82b449d587837078094652681&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.airith-bg {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhdwallpaperim.com%2Fwp-content%2Fuploads%2F2017%2F08%2F25%2F455639-fantasy_art-artwork-floating_island.jpg&f=1&nofb=1&ipt=1278f5a3528d18f2b8ebae0b27e5d1b702b63f3e84a44be2ab91db59c3f19668&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.nos-vita-bg {
+  background-image: url("https://getwallpapers.com/wallpaper/full/b/3/4/824045-full-size-fantasy-land-wallpaper-1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.raecondis-bg {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F89%2F76%2Fee%2F8976eebc9a7569a86436ecbcaf1ce3df.jpg&f=1&nofb=1&ipt=3cbf5d63ee352af7faa8835af1b428b7387be662c32ddf7674ab2859567918a5&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* #endregion */
 
 
