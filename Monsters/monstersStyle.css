@@ -46,6 +46,17 @@
   background-attachment: fixed;
 }
 
+.demons-bg {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.alphacoders.com%2F185%2F185791.jpg&f=1&nofb=1&ipt=5ec8a20b933412763985775f47b93ec8dd3a361974636659d8b03cfb78bedada&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.livingCorpseImg {
+  height: 20rem;
+}
+
 /* #region: collapsible */
 .collapsible {
   background-color: #777;
