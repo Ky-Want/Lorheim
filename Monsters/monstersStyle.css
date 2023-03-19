@@ -39,6 +39,13 @@
   background-attachment: fixed;
 }
 
+.tir-naa-bg {
+  background-image: url("https://i.pinimg.com/564x/7e/f8/1a/7ef81af7a0ecc5d114550316bea22b9d.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* #region: collapsible */
 .collapsible {
   background-color: #777;
