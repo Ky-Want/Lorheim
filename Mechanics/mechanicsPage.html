@@ -102,6 +102,16 @@
         data-bs-target="#conditions">
         <div class="fs-5">Conditions</div>
       </button>
+
+      <button type="button" class="btn btn-secondary btn-outline-dark btn-size" data-bs-toggle="modal"
+        data-bs-target="#reputation">
+        <div class="fs-5">Reputation</div>
+      </button>
+
+      <button type="button" class="btn btn-secondary btn-outline-dark btn-size" data-bs-toggle="modal"
+        data-bs-target="#crimes">
+        <div class="fs-5">Crimes/Criminal Tiers</div>
+      </button>
     </div>
 
 
@@ -890,6 +900,172 @@
               Attack rolls against the creature have advantage.
               Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</p>
             <br>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion -->
+
+
+    <!-- #region: reputation -->
+    <div class="modal fade" id="reputation" tabindex="-1" aria-labelledby="reputationLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4" id="reputationLabel">
+              Reputation
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Each player will start with a reputation based on their race and background, from there their actions will
+            determine whether their reputation improves or declines. A players reputation will affect how they are
+            treated by common folk. Some merchants might be willing to give you better deals if you have a good
+            reputation, meanwhile if your reputation is really bad you might be chased out of town. <br><br>
+
+            <strong>Reputation Chart:</strong><br>
+            -20 = Hostile <br>
+            -15 = Hated <br>
+            -10 = Disliked <br>
+            0 = Neutral <br>
+            10 = Liked <br>
+            15 = Loved <br>
+            20 = Exalted <br><br>
+
+            <strong>Examples of interactions with different reputations:</strong><br>
+            <!-- hostile -->
+            <p>*Hostile: Merchants won't trade with you, commoners avoid you to call the guards, and anyone who thinks
+              they can take you
+              in combat will attack you on sight or go out of their way to sabotage you and make your life hell.</p>
+
+            <!-- hated -->
+            <p>*Hated: Some merchants won't trade with you, people will treat you poorly and some might pick fights, but
+              you won't be attacked outright in most cases.</p>
+
+            <!-- disliked -->
+            <p>*Disliked: Merchants will trade with you, but they're likely to increase the prices because they don't
+              like you. Similarly, people won't go out of their way to do anything to you, but you'll get the cold
+              shoulder a lot and many will avoid conversation.</p>
+
+            <!-- neutral -->
+            <p>*Neutral: Merchants will give you normal prices and people will, for the most part, ignore you unless
+              spoken to.</p>
+
+            <!-- liked -->
+            <p>*Liked: You'll be greeted and treated decently, but it won't be anything out of the ordinary. Merchants
+              will probably be open to negotiating for better deals.</p>
+
+            <!-- loved -->
+            <p>*Loved: People will greet you and strike up friend conversation when the opportunity arises. It'll be
+              easier to get information from others and merchants will likely lower their prices a little just for you.
+            </p>
+
+            <!-- exalted -->
+            <p>*Exalted: You might as well be nobility at this point. People will actively go out of their way to greet
+              and speak with you. Everyone who you have this reputation with will treat you incredibly well and almost
+              always offer what they can when requested, and sometimes even if not asked.</p><br>
+
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion -->
+
+
+    <!-- #region: criminal tiers -->
+    <div class="modal fade" id="crimes" tabindex="-1" aria-labelledby="crimesLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4" id="crimesLabel">
+              Crimes
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- tier 1 -->
+            <strong>Tier 1: Local Criminals</strong><br>
+            Committing a tier 1 crime is a serious offense that can have an enormous impact on a small community.
+            However, the
+            locality of the crime rarely stretches beyond a few villages, and the common folk are usually the only ones
+            who are
+            affected. The penalties for crimes of tier 1 or higher become more extreme much more extreme. An offender
+            may be forced
+            to spend years in jail or be sentenced to execution. Or, the criminal may need to provide a service to make
+            up for their
+            wrongdoings.
+            Some examples of benefactors in this tier include: A commoner who is offering her life savings, the council
+            of a
+            village, a retired nobleman living in the countryside, a remote guild.
+            The max bounty for a local criminal is 300gp <br><br>
+
+            <strong>Crime/Severity/Bounty increase (gp)</strong><br>
+            *Arson - Major - 75<br>
+            *Breaking and entering - Minor - 30<br>
+            *Defiling graves - Minor - 30<br>
+            *Destroying a building - Major - 200<br>
+            *Highway robbery - Major - 100<br>
+            *Kidnapping (commoner) - Major - 100<br>
+            *Kidnapping (Nobility) - Major - 300<br>
+            *Mugging - Major - 50<br>
+            *Murdering (commoner) - Major - 200<br>
+            *Running a gambling ring - Major - 100<br>
+            *Selling drugs - Minor - 10<br>
+            *Smuggling - Minor - 25<br>
+            *Theft (1-300 gp) - Minor - 30<br>
+            *Vandalism (Major) - Major - 50<br>
+            *Vandalism (Minor) - Minor - 10<br><br><br><br><br>
+
+            <!-- tier 2 -->
+            <strong>Tier 2: Scourges of the Realm</strong>
+            Criminals that have become scourges of the realm have made their mark on the lands around them. Commoners
+            exchange
+            rumors about them in towns and cities adjacent to their sphere of influence. Merchants may resort to taking
+            a longer
+            route to avoid encountering the scourge. The criminal's actions have caught the attention of nobility,
+            causing members
+            of the upper class to fear for their own wellbeing. Benefactors in this tier have great but limited
+            influence over a
+            realm: the lord of a region, a wealthy merchant, a high ranking guild official, a conclave of druids.
+            The max bounty for a scourge of the realm is 7,000gp. <br><br>
+
+            <strong>Crime/Severity/Bounty increase (gp)</strong><br>
+            *Drug trafficking - Minor - 800 <br>
+            *Inciting a rebellion - Major - 3,000 <br>
+            *Mass murder - Major - 2,000 <br>
+            *Murdering (nobility) - Major - 1,000 <br>
+            *Organized crime - Major - 1,000 <br>
+            *Racketeering - Minor - 500 <br>
+            *Razing a village - Major - 4,000 <br>
+            *Serial killing - Major - 1,000 <br>
+            *Theft (300 - 7,000gp) - Minor - 700 <br><br><br><br><br>
+
+            <!-- tier 3 -->
+            <strong>Tier 3: Most Wanted</strong><br>
+            The Most Wanted are criminals who have committed irreparable damage that reaches the highest echelon of the
+            realm. Those
+            who reach this level of notoriety become household names. Kings fear them because they upset the status quo.
+            The
+            differences between minor and major crimes blur and this point and beyond.
+            The benefactors in this tier rule over the realm; the king or queen of the realm, the leader of a major
+            guild, the
+            general of an army, a member of the court.
+            The max bounty for a criminal on the most wanted list is 50,000 gp. <br><br>
+
+            <strong>Crime/Severity/Bounty increase (gp)</strong><br>
+            *Assassinating a high ranking official - Major - 15,000 <br>
+            *Breaking into the royal palace: Minor: 8,000 <br>
+            *Kidnapping (royalty) - Major - 20,000 <br>
+            *Leading a realm-wide criminal enterprise - Major - 25,000 <br>
+            *Leading a realm-wide rebellion - Major - 40,000 <br>
+            *Razing a city or multiple towns - Major - 40,000 <br>
+            *Regicide - Major - 30,000 <br>
+            *Theft (7,000 - 50,000 gp) - Minor - 10,000 <br><br>
+
             <div class="modal-footer">
             </div>
           </div>
