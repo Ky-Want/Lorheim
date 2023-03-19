@@ -18,6 +18,13 @@
   opacity: 0.89;
 }
 
+.abr-bg {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F00%2Fc9%2F9f%2F00c99f315b3883200f0530342ea91e66.jpg&f=1&nofb=1&ipt=0ab2c8cef223414feac65d20c76363d1c51e7b1585a89b42b98910ce816ff96d&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* #region: collapsible */
 .collapsible {
   background-color: #777;
