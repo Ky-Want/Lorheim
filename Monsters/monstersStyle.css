@@ -9,6 +9,15 @@
   background-attachment: fixed;
 }
 
+.btn-size {
+  width: 8rem;
+}
+
+.bg {
+  background-color: white;
+  opacity: 0.89;
+}
+
 /* #region: collapsible */
 .collapsible {
   background-color: #777;

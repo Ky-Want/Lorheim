@@ -42,42 +42,83 @@
 
 
 
-  <!-- continents buttons -->
-  <button type="button" class="collapsible mt-5 fs-4"><strong>Monsters by continent</strong></button>
-  <div class="content">
-    <div class="d-flex justify-content-around p-3">
-      <div class="dropdown">
-        <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Catalyst
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#catalyst1">Level 1</a></li>
-        </ul>
-      </div>
+  <!-- monsters by continent collapsible -->
+  <section class="container">
+    <button type="button" class="collapsible mt-5 fs-4 rounded"><strong>Monsters by continent</strong></button>
+    <div class="content">
+      <div class="d-flex justify-content-around p-3">
 
-      <div class="dropdown">
-        <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Necromancer
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#necromancer1">Level 1</a></li>
-        </ul>
-      </div>
+        <a href="/Monsters/monsters by continent/AirithMonsters.html"><button
+            class="rounded-2 fs-5 btn-size">Airith</button></a>
 
-      <div class="dropdown">
-        <button class="btn dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Druid
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#druid1">Level 1</a></li>
-        </ul>
+        <a href="/Monsters/monsters by continent/TerrentMonsters.html"><button
+            class="rounded-2 fs-5 btn-size">Terrent</button></a>
+
+        <a href="/Monsters/monsters by continent/KaemenMonsters.html"><button
+            class="rounded-2 fs-5 btn-size">Kaemen</button></a>
+
+        <a href="/Monsters/monsters by continent/Nos-VitaMonsters.html"><button
+            class="rounded-2 fs-5 btn-size">Nos-Vita</button></a>
+
+        <a href="/Monsters/monsters by continent/RaecondisMonsters.html"><button
+            class="rounded-2 fs-5 btn-size">Raecondis</button></a>
+
+        <a href="/Monsters/monsters by continent/RupesMonsters.html"><button
+            class="rounded-2 fs-5 btn-size">Rupes</button></a>
+
+        <a href="/Monsters/monsters by continent/Tir-NaaMonsters.html"><button
+            class="rounded-2 fs-5 btn-size">Tir-Naa</button></a>
+
       </div>
     </div>
-  </div>
+  </section>
+
+
+  <section class="container mt-4 bg p-4">
+    <h1 class="mb-5">Other Monsters</h1>
+
+    <!-- first row -->
+    <div class="d-flex justify-content-around">
+      <div class="card shadow" style="width: 18rem;">
+        <img
+          src="https://images.nightcafe.studio/jobs/dOT8TN3MUrhTgDNxChtd/dOT8TN3MUrhTgDNxChtd--3--fp9s5.jpg?tr=w-1600,c-at_max"
+          class="card-img-top">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">Demons</h5>
+          <a href="/Monsters/demons.html" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+
+      <div class="card shadow" style="width: 18rem;">
+        <img
+          src="https://images.nightcafe.studio/jobs/KcFKODqfkLRnNdmGv5ED/KcFKODqfkLRnNdmGv5ED--1--n5djl.jpg?tr=w-1600,c-at_max"
+          class="card-img-top">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">Hybrids</h5>
+          <a href="/Monsters/hybrids.html" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+
+      <div class="card shadow" style="width: 18rem;">
+        <img
+          src="https://images.nightcafe.studio/jobs/uNY6PpxcYV4BY9ITlfqz/uNY6PpxcYV4BY9ITlfqz--3--ou427.jpg?tr=w-1600,c-at_max"
+          class="card-img-top">
+        <div class="card-body d-flex flex-column justify-content-end">
+          <h5 class="card-title">Aberrations</h5>
+          <a href="/Monsters/aberrations.html" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </body>
 
 
+
+
+
+
+<script src="monsters.js"></script>
 
 <!-- #region: Bootstrap JavaScript Libraries -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
