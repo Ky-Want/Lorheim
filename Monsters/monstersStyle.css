@@ -105,6 +105,13 @@
   background-attachment: fixed;
 }
 
+.undead-bg {
+  background-image: url("http://media.wizards.com/2016/images/daily/cardart_SOI_Crow-of-Dark-Tiding.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* #endregion */
 
 
