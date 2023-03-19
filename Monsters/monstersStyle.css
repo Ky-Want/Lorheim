@@ -6,4 +6,32 @@
   background-image: url("https://www.gamersdecide.com/sites/default/files/authors/u141697/42.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+/* #region: collapsible */
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  /* overflow: hidden; */
+  background-color: #f1f1f1;
+}
+
+/* #endregion: collapsible */
