@@ -17,3 +17,13 @@
 .bttn:focus {
   transform: scale(1.10);
 }
+
+.bg-opaque-grey {
+  background-color: grey;
+  opacity: 0.97;
+}
+
+.scrollBox {
+  height: 5rem;
+  overflow: auto;
+}

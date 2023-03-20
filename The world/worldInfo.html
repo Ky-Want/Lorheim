@@ -45,8 +45,66 @@
 
 
 
+
+
+  <!-- dropdown and buttons for other world info topics -->
+  <section class="container bg-opaque-grey rounded mb-5">
+    <div class="mt-5 d-flex justify-content-between justify-content-center p-4">
+
+      <!-- Diseases -->
+      <div class="dropdown">
+        <button class="rounded-2 dropdown-toggle fs-5 bg-secondary" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Diseases
+        </button>
+        <ul class="dropdown-menu scrollBox">
+          <!-- Airobor Caedis: magical tree disease -->
+          <p type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#airoborCaedis">
+            Airobor Caedis</p>
+        </ul>
+      </div>
+
+
+      <!-- Guilds and other groups -->
+      <div class="dropdown">
+        <button class="rounded-2 dropdown-toggle fs-5 bg-secondary" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Organizations
+        </button>
+        <ul class="dropdown-menu scrollBox">
+          <!-- The demon hunters -->
+          <p type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#demonHunters">
+            Demon Hunters</p>
+
+          <!-- The peaceful necromancers -->
+          <p type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#blackRose">
+            Black Rose Necromancers</p>
+        </ul>
+      </div>
+
+
+      <!-- Holidays and Celebrations -->
+      <div class="dropdown">
+        <button class="rounded-2 dropdown-toggle fs-5 bg-secondary" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Holidays
+        </button>
+        <ul class="dropdown-menu scrollBox">
+          <!-- The calender -->
+          <p type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#calender">
+            Loreheim Calender</p>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
   <!-- continents -->
-  <section class="mt-5">
+  <section class="mt-5 pt-4">
     <!-- first row -->
     <div class="d-flex justify-content-around">
       <div class="card bttn" style="width: 18rem;">
@@ -149,6 +207,50 @@
 
 
   <!-- modals -->
+
+  <!-- #region: Airobor Caedis, magical tree disease -->
+  <div class="modal fade" id="airoborCaedis" tabindex="-1" aria-labelledby="airoborCaedisLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="airoborCaedisLabel">
+            Airobor Caedis
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Arobor Caedis: This is a disease that's created when magic from Regnum Infernum seeps into Loreheim and
+            comes into
+            contact with wood. This disease is most commonly known for affecting trees, but it can in some cases affect
+            woody vines.
+            When the magic comes across one such plant and sticks it will start to cause mutations in the wood that flow
+            down to the
+            roots, making their growth increase drastically. Trees with Arbor Caedis can easily overtake entire towns
+            and forests in
+            a matter of weeks. They also change to house a black acidic sap as a defense mechanism that burns through
+            anything it
+            comes into contact with when the bark is damaged. Once the tree expands enough it's roots will form medium
+            sized masses
+            that will slowly take on the shape of whatever living creature the roots encountered the most. One such root
+            creature
+            will be produced per day and will attack anything living around the tree and its roots. Fire and any other
+            normal means
+            of removing trees has proved to be rather ineffective when combating those with Arobor Caedis due to its
+            plentiful
+            supply of sap, instead it's recommended to use spells fueled by holy magic or electricity to destroy the
+            trunk. Once the
+            core is damaged enough the rest of the tree will wither away and die, along with it's evil spawn that rely
+            on it's magic
+            to stay active.
+          </p>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #endregion -->
+
 
   <!-- #region:  -->
   <!-- <div class="modal fade" id="humans" tabindex="-1" aria-labelledby="humansLabel" aria-hidden="true">
