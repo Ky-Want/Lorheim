@@ -27,3 +27,12 @@
   height: 5rem;
   overflow: auto;
 }
+
+
+/* #region: continents backgrounds */
+.terrent {
+  background-image: url("https://wallpapertag.com/wallpaper/middle/0/a/7/137180-dark-fantasy-wallpaper-1920x1200-smartphone.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
